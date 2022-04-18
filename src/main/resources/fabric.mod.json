@@ -9,7 +9,7 @@
   ],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/clicker/icon.png",
+  "icon": "assets/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
@@ -25,6 +25,6 @@
   "depends": {
     "fabricloader": ">=0.13.3",
     "fabric": "*",
-    "minecraft": "1.16.5"
+    "minecraft": ">=1.16.5"
   }
 }
