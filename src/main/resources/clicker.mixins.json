@@ -1,13 +1,13 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "io.github.m0riati.clicker.clicker.mixin",
+  "package": "io.github.m0riati.clicker.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
   ],
   "client": [
-    "io.github.m0riati.clicker.mixin.ClientMixin",
-    "io.github.m0riati.clicker.mixin.ClientAccessor"
+    "ClientMixin",
+    "ClientAccessor"
   ],
   "injectors": {
     "defaultRequire": 1
