@@ -3,7 +3,7 @@
   "id": "clicker",
   "version": "${version}",
   "name": "Clicker",
-  "description": "Fabric mod to spare yourself from exhausting speedclicking techniques.",
+  "description": "Comfortably hold the left mouse button to continuously hit.",
   "authors": [
     "Moriati"
   ],
