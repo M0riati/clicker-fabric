@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "clicker",
+  "version": "${version}",
+  "name": "Clicker",
+  "description": "Fabric mod to spare yourself from exhausting speedclicking techniques.",
+  "authors": [
+    "Moriati"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/clicker/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "io.github.m0riati.clicker.client.ClickerClient"
+    ],
+    "main": [
+      "io.github.m0riati.clicker.Clicker"
+    ]
+  },
+  "mixins": [
+    "clicker.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
