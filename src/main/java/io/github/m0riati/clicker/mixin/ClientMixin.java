@@ -21,7 +21,7 @@ interface ClientAccessor {
 public class ClientMixin {
     @Inject(at = @At("HEAD"), method = "handleInputEvents()V")
     private void handleInputEvents(CallbackInfo ci) {
-        if (((MinecraftClient)(Object)this).options.keyAttack.isPressed() && ((ClientAccessor) MinecraftClient.getInstance()).getAttackCooldown() == 0 && !((MinecraftClient)(Object)this).player.isUsingItem()) {
+        if (((MinecraftClient)(Object)this).options.keyAttack.isPressed() && !((MinecraftClient)(Object)this).player.isUsingItem()) { // && ((ClientAccessor) MinecraftClient.getInstance()).getAttackCooldown() > 4
             ((ClientAccessor) this).invokeAttack();
         }
     }
