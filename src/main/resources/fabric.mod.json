@@ -9,14 +9,15 @@
   ],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/icon.png",
+  "icon": "assets/clicker/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
-      "io.github.m0riati.clicker.client.ClickerClient"
-    ],
-    "main": [
+      "io.github.m0riati.clicker.client.ClickerClient",
       "io.github.m0riati.clicker.Clicker"
+    ],
+    "modmenu": [
+      "io.github.m0riati.clicker.ModMenuIntegration"
     ]
   },
   "mixins": [
@@ -25,6 +26,6 @@
   "depends": {
     "fabricloader": ">=0.13.3",
     "fabric": "*",
-    "minecraft": ">=1.16.5"
+    "minecraft": ">=1.16.0"
   }
 }

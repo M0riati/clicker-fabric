@@ -1,0 +1,13 @@
+{
+  "text.autoconfig.clicker.title": "Clicker",
+  "text.autoconfig.clicker.option.cps": "Hit CPS",
+  "text.autoconfig.clicker.option.cps.oeigth": "1/8 CPS",
+  "text.autoconfig.clicker.option.cps.oquarter": "1/4 CPS",
+  "text.autoconfig.clicker.option.cps.ohalf": "1/2 CPS",
+  "text.autoconfig.clicker.option.cps.o1": "1 CPS",
+  "text.autoconfig.clicker.option.cps.o2": "2 CPS",
+  "text.autoconfig.clicker.option.cps.o4": "4 CPS",
+  "text.autoconfig.clicker.option.cps.o5": "5 CPS",
+  "text.autoconfig.clicker.option.cps.o10": "10 CPS",
+  "text.autoconfig.clicker.option.cps.o20": "20 CPS"
+}

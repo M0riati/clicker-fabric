@@ -6,8 +6,9 @@
   "mixins": [
   ],
   "client": [
+    "ClientAccessor",
     "ClientMixin",
-    "ClientAccessor"
+    "InteractionManagerMixin"
   ],
   "injectors": {
     "defaultRequire": 1
